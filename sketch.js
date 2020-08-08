@@ -54,7 +54,7 @@ function draw() {
     plinkos[i].display();
   }
 
-  if (frameCount % 90 === 0)
+  if (frameCount % 20 === 0)
   {
     particles.push(new Particle());    
   }
